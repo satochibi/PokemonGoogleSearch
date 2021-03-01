@@ -30,7 +30,7 @@ index = 1
 
 for search_word in search_words:
     url = "https://www.google.com/search?q="
-    url += search_word
+    url += "ポケモン" + "+" + search_word 
     driver.get(url)
     sleep(5)
     
